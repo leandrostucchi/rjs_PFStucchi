@@ -1,0 +1,66 @@
+[
+	{
+		"id": 1,
+		"model": "Asus",
+		"type": "Notebook",
+		"category": "informatica",
+		"procesador": "I3"
+	},
+	{
+		"id": 2,
+		"model": "HP",
+		"type": "Notebook",
+		"category": "informatica",
+		"procesador": "I3"
+	},
+	{
+		"id": 3,
+		"model": "Dell",
+		"type": "Notebook",
+		"category": "informatica",
+		"procesador": "I5"
+	},
+	{
+		"id": 4,
+		"model": "Dell",
+		"type": "Tablet",
+		"category": "informatica",
+		"procesador": "I2"
+	},
+	{
+		"id": 5,
+		"model": "Dell",
+		"type": "Escritorio",
+		"category": "informatica",
+		"procesador": "I4"
+	},
+	{
+		"id": 6,
+		"model": "Eskabe",
+		"type": "Horno",
+		"category": "hogar",
+		"procesador": ""
+	},
+	{
+		"id": 7,
+		"model": "Gafa",
+		"type": "Heladera",
+		"category": "hogar",
+		"procesador": ""
+	},
+	{
+		"id": 8,
+		"model": "Gafa",
+		"type": "Heladera",
+		"category": "hogar",
+		"procesador": ""
+	},
+	{
+		"id": 9,
+		"model": "Domec",
+		"type": "Horno",
+		"category": "hogar",
+		"procesador": ""
+	}
+]
+

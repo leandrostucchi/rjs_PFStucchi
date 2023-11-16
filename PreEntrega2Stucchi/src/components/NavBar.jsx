@@ -1,31 +1,24 @@
-
-
-
-
+import { NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
 import { CartWidget } from './CartWidget';
-
+import {uniqueCategories} from '../hooks/useCategories';
 
 export const NavBar =  () => {
   return (
-    <>
       <Navbar bg="primary" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#electrodomestico">Electro Domestico</Navbar.Brand>
+         <NavLink to="/">
+              <Navbar.Brand>Electro Domestico</Navbar.Brand>
+           </NavLink>
           <Nav className="me-auto">
-            <Nav.Link href="#informatica">Informatica</Nav.Link>
-            <Nav.Link href="#hogar">Hogar</Nav.Link>
-            <Nav.Link href="#airelibre">Aire Libre</Nav.Link>
+            {uniqueCategories.map(electro => <Nav.Link as = {NavLink} key="item" to={electro}>{electro}</Nav.Link>)}
           </Nav>
         </Container>
         <CartWidget/> 
       </Navbar>
-      
-
-    </>
   );
 }
