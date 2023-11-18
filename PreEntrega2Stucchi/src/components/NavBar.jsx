@@ -15,7 +15,7 @@ export const NavBar =  () => {
               <Navbar.Brand>Electro Domestico</Navbar.Brand>
            </NavLink>
           <Nav className="me-auto">
-            {uniqueCategories.map(electro => <Nav.Link as = {NavLink} key="item" to={electro}>{electro}</Nav.Link>)}
+            {uniqueCategories.map(item => <Nav.Link as = {NavLink} key={item} to={`/category/${item}`}>{item}</Nav.Link>)}
           </Nav>
         </Container>
         <CartWidget/> 

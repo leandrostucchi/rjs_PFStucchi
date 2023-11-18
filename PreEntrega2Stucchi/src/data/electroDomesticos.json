@@ -4,63 +4,71 @@
 		"model": "Asus",
 		"type": "Notebook",
 		"category": "informatica",
-		"procesador": "I3"
+		"procesador": "I3",
+		"imagen": "notebook01.png"
 	},
 	{
 		"id": 2,
 		"model": "HP",
 		"type": "Notebook",
 		"category": "informatica",
-		"procesador": "I3"
+		"procesador": "I3",
+		"imagen": "../assets/notebook01.png"
 	},
 	{
 		"id": 3,
 		"model": "Dell",
 		"type": "Notebook",
 		"category": "informatica",
-		"procesador": "I5"
+		"procesador": "I5",
+		"imagen": "../assets/notebook01.png"
 	},
 	{
 		"id": 4,
 		"model": "Dell",
 		"type": "Tablet",
 		"category": "informatica",
-		"procesador": "I2"
+		"procesador": "I2",
+		"imagen": "../assets/notebook01.png"
 	},
 	{
 		"id": 5,
 		"model": "Dell",
 		"type": "Escritorio",
 		"category": "informatica",
-		"procesador": "I4"
+		"procesador": "I4",
+		"imagen": "../assets/notebook01.png"
 	},
 	{
 		"id": 6,
 		"model": "Eskabe",
 		"type": "Horno",
 		"category": "hogar",
-		"procesador": ""
+		"procesador": "",
+		"imagen": "../assets/notebook01.png"
 	},
 	{
 		"id": 7,
 		"model": "Gafa",
 		"type": "Heladera",
 		"category": "hogar",
-		"procesador": ""
+		"procesador": "",
+		"imagen": "../assets/notebook01.png"
 	},
 	{
 		"id": 8,
 		"model": "Gafa",
 		"type": "Heladera",
 		"category": "hogar",
-		"procesador": ""
+		"procesador": "",
+		"imagen": "../assets/notebook01.png"
 	},
 	{
 		"id": 9,
 		"model": "Domec",
 		"type": "Horno",
 		"category": "hogar",
-		"procesador": ""
+		"procesador": "",
+		"imagen": "../assets/notebook01.png"
 	}
 ]
-

@@ -1,11 +1,14 @@
 import Container from 'react-bootstrap/Container';
-import { Item } from "./Items";
+import {Item}  from "./Items";
 
 
-export const ItemList = ( {item} ) => {
+export const ItemList = ({item})  => {
     return (
         <Container>
-            {item.map(electro => <Item key="electro" electros={electro} />)}
+           {item.map(ite => <Item key={item.id} item={ite} />)}            
         </Container>
     );
 }
+
+
+
