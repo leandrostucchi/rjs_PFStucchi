@@ -5,7 +5,7 @@
 		"type": "Notebook",
 		"category": "informatica",
 		"procesador": "I3",
-		"imagen": "notebook01.png"
+		"imagen": "notebook01"
 	},
 	{
 		"id": 2,
@@ -13,7 +13,7 @@
 		"type": "Notebook",
 		"category": "informatica",
 		"procesador": "I3",
-		"imagen": "../assets/notebook01.png"
+		"imagen": "notebook02"
 	},
 	{
 		"id": 3,
@@ -21,7 +21,7 @@
 		"type": "Notebook",
 		"category": "informatica",
 		"procesador": "I5",
-		"imagen": "../assets/notebook01.png"
+		"imagen": "notebook03"
 	},
 	{
 		"id": 4,
@@ -29,7 +29,7 @@
 		"type": "Tablet",
 		"category": "informatica",
 		"procesador": "I2",
-		"imagen": "../assets/notebook01.png"
+		"imagen": "notebook03"
 	},
 	{
 		"id": 5,
@@ -37,7 +37,7 @@
 		"type": "Escritorio",
 		"category": "informatica",
 		"procesador": "I4",
-		"imagen": "../assets/notebook01.png"
+		"imagen": "notebook02"
 	},
 	{
 		"id": 6,
@@ -45,7 +45,7 @@
 		"type": "Horno",
 		"category": "hogar",
 		"procesador": "",
-		"imagen": "../assets/notebook01.png"
+		"imagen": "horno01"
 	},
 	{
 		"id": 7,
@@ -53,7 +53,7 @@
 		"type": "Heladera",
 		"category": "hogar",
 		"procesador": "",
-		"imagen": "../assets/notebook01.png"
+		"imagen": "heladera01"
 	},
 	{
 		"id": 8,
@@ -61,7 +61,7 @@
 		"type": "Heladera",
 		"category": "hogar",
 		"procesador": "",
-		"imagen": "../assets/notebook01.png"
+		"imagen": "heladera02"
 	},
 	{
 		"id": 9,
@@ -69,6 +69,6 @@
 		"type": "Horno",
 		"category": "hogar",
 		"procesador": "",
-		"imagen": "../assets/notebook01.png"
+		"imagen": "horno02"
 	}
 ]

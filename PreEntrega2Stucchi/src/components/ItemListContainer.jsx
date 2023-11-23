@@ -11,7 +11,7 @@ export const ItemListContainer = () => {
 
 	const {id} = useParams();
 
-	console.log(id);
+	//console.log(id);
 	useEffect(() => {
 		const electrosPromise = new Promise((resolve) => {
 			setTimeout(() => {
