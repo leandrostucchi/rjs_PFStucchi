@@ -1,0 +1,205 @@
+/* Variables */
+/* reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "BlueSignature";
+  src: url("../fonts/BlueSignature.otf");
+}
+/* Selector universal */
+.centrar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
+.centrar.principal {
+  font-family: "BlueSignature";
+}
+
+.div {
+  color: rgb(128, 0, 0);
+}
+
+.button {
+  border: none;
+  color: colorNegro;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.button.verde {
+  background-color: rgb(84, 175, 76);
+}
+
+.button.rojo {
+  background-color: rgb(175, 116, 76);
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+}
+
+#tabla {
+  border: 1px solid rgb(0, 0, 255);
+  border-collapse: collapse;
+  width: 50%;
+}
+#tabla tr {
+  text-align: left;
+  width: 100%;
+  font-size: 25px;
+}
+
+.dimension, .dimensionIndex, .dimensionSucursal, .dimensionComunicacion, .dimensionFooter, .dimensionHistoria, .dimensionDelicias, .dimensionSabores {
+  width: 300px;
+  height: 300px;
+}
+
+.box1 {
+  display: inline-block;
+  background-color: rgb(203, 219, 248);
+  width: 350px;
+  height: 350px;
+  border-width: 1px;
+  padding-left: 10px;
+  padding: 10px 30px;
+  overflow: scroll;
+  box-sizing: border-box;
+  margin: 10px 20px;
+}
+
+.dimensionHistoria {
+  display: inline-block;
+  background-color: rgb(203, 219, 248);
+  width: 300px;
+  height: 300px;
+  overflow-y: scroll;
+  margin: 10px 20px;
+}
+
+.dimensionFooter {
+  width: 50px;
+  height: 50px;
+}
+
+.dimensionComunicacion {
+  width: 50px;
+  height: 50px;
+}
+
+.dimensionSucursal, .dimensionIndex {
+  width: 600px;
+  height: 450px;
+  border-style: none;
+}
+
+.degrade {
+  background-color: rgb(186, 206, 3);
+  list-style: none;
+  background-image: linear-gradient(rgb(186, 206, 3), rgb(255, 255, 0));
+}
+
+.linkpagina {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cargar {
+  --s: 10px;
+  height: calc(var(--s) * 0.9);
+  width: calc(var(--s) * 5);
+  --v1:transparent,#000 0.5deg 108deg,#0000 109deg;
+  --v2:transparent,#000 0.5deg 36deg,#0000 37deg;
+  --webkit-mask:
+    conic-gradient(from 54deg at calc(var(--s)*0.68) calc(var(--s)*0.57),var(--v1)),
+    conic-gradient(from 90deg at calc(var(--s)*0.02) calc(var(--s)*0.35),var(--v2)),
+    conic-gradient(from 126deg at calc(var(--s)*0.5) calc(var(--s)*0.7) ,var(--v1)),
+    conic-gradient(from 162deg at calc(var(--s)*0.5) 0 ,var(--v2));
+  --webkit-mask-size: var(--s) var(--s);
+  --webkit-mask-composite: xor,destination-over;
+  mask-composite: exclude, add;
+  --webkit-mask-repeat:repeat-x;
+  background: linear-gradient(#ffb940 0 0) left/0% 100% #ddd no-repeat;
+  animation: l20 2s infinite linear;
+}
+
+@keyframes l20 {
+  90%, 100% {
+    background-size: 100% 100%;
+  }
+}
+.Carga {
+  height: 30px;
+  aspect-ratio: 3;
+  --c:no-repeat linear-gradient(#514b82 0 0);
+  background: var(--c) 0% 50%, var(--c) 20% 50%, var(--c) 40% 50%, var(--c) 60% 50%, var(--c) 80% 50%, var(--c) 100% 50%;
+  background-size: calc(16.6666666667% + 1px) 50%;
+  animation: l19 1s infinite cubic-bezier(0.5, 170, 0.5, -170);
+}
+
+@keyframes l19 {
+  14.28% {
+    background-position: 0% 51%, 20% 50%, 40% 50%, 60% 50%, 80% 50%, 100% 50%;
+  }
+  28.57% {
+    background-position: 0% 50%, 20% 51%, 40% 50%, 60% 50%, 80% 50%, 100% 50%;
+  }
+  42.85% {
+    background-position: 0% 50%, 20% 50%, 40% 51%, 60% 50%, 80% 50%, 100% 50%;
+  }
+  57.14% {
+    background-position: 0% 50%, 20% 50%, 40% 50%, 60% 51%, 80% 50%, 100% 50%;
+  }
+  71.42% {
+    background-position: 0% 50%, 20% 50%, 40% 50%, 60% 50%, 80% 51%, 100% 50%;
+  }
+  85.71% {
+    background-position: 0% 50%, 20% 50%, 40% 50%, 60% 50%, 80% 50%, 100% 51%;
+  }
+}
+h1 {
+  color: rgb(128, 0, 0);
+  font-weight: bold;
+  font-size: 100px;
+}
+
+h2 {
+  color: rgb(128, 0, 0);
+  font-weight: bold;
+  font-size: 80px;
+}
+
+h3 {
+  color: rgba(0, 119, 128, 0.993);
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
