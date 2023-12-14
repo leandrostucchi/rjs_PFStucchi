@@ -1,13 +1,11 @@
-import {BrowserRouter,Routes, Route   } from "react-router-dom";
 import { NavBar } from './components/NavBar';
 import { ItemListContainer } from './components/ItemListContainer';
 import { ItemDetailsContainer } from './components/ItemDetailsContainer';
 import { Cart } from "./components/Cart";
 
-import './App.css'
 import { CartProvider } from "./contexts/CartContexts";
-
-
+import {BrowserRouter,Routes, Route } from "react-router-dom";
+import './App.css'
 
 function App() {
   return (

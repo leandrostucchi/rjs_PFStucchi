@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container';
 import ImagenAMostrar  from './Imagenes';
 import { ItemCount } from "./ItemCount";
 
-
 export const ItemDetails = ({item})  => {
     const imagenes = ImagenAMostrar(`${item.imagen}`);    
     return (

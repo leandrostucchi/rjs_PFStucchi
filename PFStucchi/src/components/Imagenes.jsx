@@ -6,11 +6,7 @@ import horno02 from "../assets/horno02.jpg";
 import heladera01 from "../assets/heladera01.jpg";
 import heladera02 from "../assets/heladera02.jfif";
 
-
-
-
 const ImagenAMostrar = function (imagen) {
-    ///console.log(imagen);
       switch (imagen) {
           case "notebook01":
             return notebook01;

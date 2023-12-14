@@ -8,7 +8,6 @@ export const CartHead =() => {
             <table className="table">
                 <thead>
                     <tr>
-                        <th scope="col">#</th>
                         <th scope="col">Descripcion</th>
                         <th scope="col">Cantidad</th>
                         <th scope="col">Precio Unitario</th>
